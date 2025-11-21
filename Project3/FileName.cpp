@@ -1,5 +1,5 @@
 #include <iostream>
-#include<vector>
+#include<deque>
 using namespace std;
 
 class Point {
@@ -29,7 +29,7 @@ public:
 };
 
 int main() {
-	vector<Point> obj;
+	deque<Point> obj;
 
 	obj.push_back(Point(1, 20));
 
